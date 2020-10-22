@@ -1,5 +1,7 @@
+using DNG.API.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -18,6 +20,14 @@ namespace DNG.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+
+            var connectionString = Configuration.GetConnectionString("DNGym");
+
+            services.AddDbContext<DNGDbContext>(opt =>
+            {
+                opt.UseSqlServer(connectionString);
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DotNetGym API", Version = "v1" });
@@ -41,7 +51,9 @@ namespace DNG.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseDeveloperExceptionPage();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

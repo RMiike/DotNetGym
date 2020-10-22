@@ -17,5 +17,9 @@ namespace DNG.API.Entities
 
         public DateTime Nascimento { get; private set; }
         public StatusAlunoEnum Status { get; private set; }
+        public int IdUnidade { get; private set; }
+        public Unidade Unidade { get; set; }
+        public int IdProfessor { get; set; }
+        public Professor Professor { get; set; }
     }
 }
