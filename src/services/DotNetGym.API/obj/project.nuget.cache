@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "VQxPiaNDifHH8Ayljc9Th2hd/ea5834vPBzg0ZU0kqcIzUf/k2bV2Px5dI45SdW6HhsWnz9f9/91P9LD8H/zIA==",
+  "dgSpecHash": "gFTvOtFn63qu6QxW18/Zun9JiGKRWIxjqSzFoDyAV7PKv6D8spQcZ8Kwyz1jeowVVM9PL6dN9RWHsVmiicRBRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\miike\\source\\repos\\DotNetGym\\src\\services\\DotNetGym.API\\DotNetGym.API.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\miike\\source\\repos\\DotNetGym\\src\\services\\DotNetGym.API\\DNG.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miike\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\miike\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\miike\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\miike\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\miike\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\miike\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

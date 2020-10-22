@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DotNetGym.API.Entities
+namespace DNG.API.Entities
 {
     public class Unidade : EntidadeBase
     {

@@ -1,7 +1,7 @@
 ﻿using DotNetGym.API.Enums;
 using System.Collections.Generic;
 
-namespace DotNetGym.API.Entities
+namespace DNG.API.Entities
 {
     public class Professor : EntidadeBase
     {

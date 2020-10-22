@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D8CF4CC6-CA7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{68D13771-8222-49E4-BEA4-E5680920CE52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGym.API", "src\services\DotNetGym.API\DotNetGym.API.csproj", "{052F9D97-F161-4D06-85D1-1A46AED119F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNG.API", "src\services\DotNetGym.API\DNG.API.csproj", "{052F9D97-F161-4D06-85D1-1A46AED119F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

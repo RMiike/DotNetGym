@@ -1,4 +1,4 @@
-﻿namespace DotNetGym.API.Entities
+﻿namespace DNG.API.Entities
 {
     public abstract class EntidadeBase
     {

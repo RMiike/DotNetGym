@@ -1,7 +1,7 @@
 ﻿using DotNetGym.API.Enums;
 using System;
 
-namespace DotNetGym.API.Entities
+namespace DNG.API.Entities
 {
     public class Aluno : EntidadeBase
     {
