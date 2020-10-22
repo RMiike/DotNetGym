@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{17645352-F144-42A6-B46D-DCE897AB9A4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{10D94D25-4F23-4513-849A-4F541866B038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{D8CF4CC6-CA7F-461C-B7EF-97DAFFAD6B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{68D13771-8222-49E4-BEA4-E5680920CE52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGym.API", "src\services\DotNetGym.API\DotNetGym.API.csproj", "{052F9D97-F161-4D06-85D1-1A46AED119F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052F9D97-F161-4D06-85D1-1A46AED119F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052F9D97-F161-4D06-85D1-1A46AED119F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052F9D97-F161-4D06-85D1-1A46AED119F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052F9D97-F161-4D06-85D1-1A46AED119F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17645352-F144-42A6-B46D-DCE897AB9A4C} = {68D13771-8222-49E4-BEA4-E5680920CE52}
+		{10D94D25-4F23-4513-849A-4F541866B038} = {68D13771-8222-49E4-BEA4-E5680920CE52}
+		{D8CF4CC6-CA7F-461C-B7EF-97DAFFAD6B58} = {68D13771-8222-49E4-BEA4-E5680920CE52}
+		{052F9D97-F161-4D06-85D1-1A46AED119F5} = {17645352-F144-42A6-B46D-DCE897AB9A4C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D79FCDB-9EFC-4331-9C89-B6AC21F08E2B}
+	EndGlobalSection
+EndGlobal
