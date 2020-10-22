@@ -1,11 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DotNetGym.API.Enums;
+using System;
 
 namespace DotNetGym.API.Entities
 {
-    public class Aluno
+    public class Aluno : EntidadeBase
     {
+        protected Aluno() { }
+        public Aluno(string nome,
+                     string endereco,
+                     DateTime nascimento) : base(nome,
+                                                 endereco)
+        {
+            Nascimento = nascimento;
+            Status = StatusAlunoEnum.Ativo;
+        }
+
+        public DateTime Nascimento { get; private set; }
+        public StatusAlunoEnum Status { get; private set; }
     }
 }
